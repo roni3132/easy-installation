@@ -1,5 +1,5 @@
 ## 🚀 1 Jenkins EC2 Provisioning with Terraform
-[Jenkins + EC2](./Jenkins+EC2_with_terraform/readme.md)
+[Jenkins + EC2](./Jenkins+EC2_with_terraform/)
 # 2 🐳 Docker Installer Script (Ubuntu)
 
 A simple Bash script to **install Docker** on Ubuntu, add the current user to the `docker` group, and test the installation with `hello-world`.
