@@ -1,15 +1,12 @@
 # 🚀 Jenkins EC2 Provisioning with Terraform
 
 ## This project provisions an AWS EC2 instance using Terraform and automatically installs:
-
 Java 17
-
 Jenkins
-
 Docker
 
 ## Only the required ports are opened and an SSH key pair is auto-generated and stored locally.
-
+```bash
 📁 Project Structure
 .
 ├── main.tf
@@ -17,23 +14,22 @@ Docker
 ├── outputs.tf
 └── key/
     └── jenkins.pem
-
-# ✅ Features
-
-## EC2 instance (Ubuntu 22.04)
-## Auto-generated SSH key
-## Secure Security Group (22, 8080 only)
-## Jenkins auto-installed and started
-## Docker installed and enabled
-##  Terraform-managed infrastructure
+```
+## ✅ Features
+EC2 instance (Ubuntu 22.04)
+Auto-generated SSH key
+Secure Security Group (22, 8080 only)
+Jenkins auto-installed and started
+Docker installed and enabled
+ Terraform-managed infrastructure
 
 # 🔧 Prerequisites
 
-## AWS Account
-## IAM user with EC2 permissions
-## Terraform v1.5+
-## AWS CLI configured:
-## aws configure
+AWS Account
+IAM user with EC2 permissions
+Terraform v1.5+
+AWS CLI configured:
+aws configure
 
 # 🚀 Usage
 ## 1️⃣ Initialize Terraform
@@ -50,7 +46,6 @@ Confirm with yes.
 
 ## 3️⃣ Terraform Outputs
 After apply completes, Terraform will show:
-
 EC2 Public IP
 Jenkins URL
 SSH command
