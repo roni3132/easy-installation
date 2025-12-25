@@ -73,3 +73,8 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 ```bash
 terraform destroy
 ```
+
+## Remove Directory  
+```bash
+cd ../.. && rm -rf easy-installation
+```

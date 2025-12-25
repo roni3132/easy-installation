@@ -25,6 +25,4 @@ This email will be used to generate the SSH key.
 ssh -T git@github.com
 ```
 
-
-
 # 🎉 Enjoy! You are now logged in to GitHub from the CLI.

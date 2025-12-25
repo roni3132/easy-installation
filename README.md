@@ -3,7 +3,7 @@
 
 ## 🚀 2 Github Login in any CLI
 [GITHUB LOGIN](./github_login/)
-# 2 🐳 Docker Installer Script (Ubuntu)
+# 3 🐳 Docker Installer Script (Ubuntu)
 
 A simple Bash script to **install Docker** on Ubuntu, add the current user to the `docker` group, and test the installation with `hello-world`.
 
